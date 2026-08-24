@@ -117,15 +117,19 @@
 	</build>
 
 
-	 <distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://54.66.24.153:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://54.66.24.153:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+<distributionManagement>
 
+    <repository>
+        <id>deploymentRepo</id>
+        <name>Nexus Releases</name>
+        <url>http://18.212.145.57:8081/repository/maven-releases/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>deploymentRepo</id>
+        <name>Nexus Snapshots</name>
+        <url>http://18.212.145.57:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+
+</distributionManagement>
 </project>
