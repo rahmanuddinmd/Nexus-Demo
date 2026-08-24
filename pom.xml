@@ -115,21 +115,21 @@
 </plugin>
 		</plugins>
 	</build>
-
-
+	
 <distributionManagement>
 
     <repository>
-        <id>deploymentRepo</id>
+        <id>developer-demo</id>
         <name>Nexus Releases</name>
         <url>http://18.212.145.57:8081/repository/maven-releases/</url>
     </repository>
 
     <snapshotRepository>
-        <id>deploymentRepo</id>
+        <id>developer-demo</id>
         <name>Nexus Snapshots</name>
         <url>http://18.212.145.57:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 
 </distributionManagement>
+
 </project>
